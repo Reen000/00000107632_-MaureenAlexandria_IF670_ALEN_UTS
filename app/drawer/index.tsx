@@ -208,10 +208,10 @@ export default function Home() {
             >
               {[
                 require("../../src/assets/images/banner1.png"),
-                require("../../src/assets/images/banner2.png"),
-                require("../../src/assets/images/banner3.png"),
-                require("../../src/assets/images/banner4.png"),
-                require("../../src/assets/images/banner5.png"),
+                require("../../src/assets/images/banner1.png"),
+                require("../../src/assets/images/banner1.png"),
+                require("../../src/assets/images/banner1.png"),
+                require("../../src/assets/images/banner1.png"),
               ].map((src, index) => (
                 <View key={index} style={{ flex: 1 }}>
                   <Image
